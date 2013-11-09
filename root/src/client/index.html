@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="lib/require.js" data-main="js/main"></script>
+</head>
+<body>
+<p>Hello!</p>
+
+<p>This page demonstrates that client and server share modules!</p>
+
+<p>In this case, both use the <a href="js/shared/bar.js">bar module</a>.</p>
+
+<p>Here's the result of each calling bar.bar('test'):</p>
+
+<div>Client: <span id="client"></span></div>
+<div>Server: <span id="server"></span></div>
+</body>
+</html>
