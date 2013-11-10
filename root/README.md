@@ -21,27 +21,27 @@
 npm install
 ```
 
-## Building
+### Building
 ```
 grunt
 ```
 
-## Running karma
+### Running karma
 ```
 karma start
 ```
 
-## Run tests and jshint whenever src or test JS files change.
+### Run tests and jshint whenever src or test JS files change.
 ```
 grunt watch
 ```
 
-## Start server, pointed at src directory (default is port 3000)
+### Start server, pointed at src directory (default is port 3000)
 ```
 node src/server/app
 ```
 
-## Start server, pointed at build directory (be sure to build first)
+### Start server, pointed at build directory (be sure to build first)
 ```
 node build/server/app
 ```
