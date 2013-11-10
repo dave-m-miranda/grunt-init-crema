@@ -1,42 +1,48 @@
-# Node Template
-Template to share JavaScript code between client (browser) and Node.js server.
+# {%= title || name %}
+
+{%= description %}
 
 ## Requirements
+[grunt]: https://github.com/gruntjs/grunt
+[grunt-cli]: https://github.com/gruntjs/grunt-cli
+[karma]: https://github.com/karma-runner/karma
+[Firefox]: http://www.mozilla.org/en-US/firefox
 
-*grunt*
+## Requirements
+[grunt][]
 
-To install globally:
+[grunt-cli][]
 
-    npm install grunt -g
+[karma][]
 
-*grunt-cli*
-
-To install globally:
-
-    npm install grunt-cli -g
-
-*karma*
-
-To install globally:
-
-    npm install karma -g
-
-*Firefox* (default browser that this project configured for karma)
+[Firefox][]
 
 ## Installation
-    npm install
+```
+npm install
+```
 
 ## Building
-    grunt
+```
+grunt
+```
 
 ## Running karma
-    karma start
+```
+karma start
+```
 
 ## Run tests and jshint whenever src or test JS files change.
-    grunt watch
+```
+grunt watch
+```
 
 ## Start server, pointed at src directory (default is port 3000)
-    node src/server/app
+```
+node src/server/app
+```
 
 ## Start server, pointed at build directory (be sure to build first)
-    node build/server/app
+```
+node build/server/app
+```
