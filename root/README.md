@@ -2,7 +2,6 @@
 
 {%= description %}
 
-## Requirements
 [grunt]: https://github.com/gruntjs/grunt
 [grunt-cli]: https://github.com/gruntjs/grunt-cli
 [karma]: https://github.com/karma-runner/karma
